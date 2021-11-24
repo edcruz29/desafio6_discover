@@ -9,8 +9,65 @@
   --body-bg-color: #faf7fd;
   --purple: #bb99dd;
 }
-.body{
-    max-width: 414px;
-    height: 100vh;
-    background-color: var(--body-bg-color);
+.body {
+  max-width: 414px;
+  height: 100vh;
+  background-color: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.profile {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 2px solid var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.profile__photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-evenly;
+}
+.links__style {
+  width: 326px;
+  height: 49px;
+  border: 1px solid var(--purple);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links__icon {
+  margin-right: 10px;
+}
+.link__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.profile__link {
+  text-decoration: none;
+}
+.link__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+#inst {
+  margin-left: 30px;
+}
+#in {
+  margin-left: 15px;
 }
